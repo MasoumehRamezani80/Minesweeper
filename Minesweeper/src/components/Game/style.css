@@ -1,0 +1,38 @@
+.matrix {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+}
+td {
+  width: 30px;
+  height: 30px;
+  border: .1px solid wheat;
+  cursor: pointer;
+  color: #3374ff;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+/*
+.grid tbody tr td { background-color: #ffc; }
+.grid tbody tr:nth-child(odd) td:nth-child(even),
+.grid tbody tr:nth-child(even) td:nth-child(odd) { background-color: #eee; }
+*/
